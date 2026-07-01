@@ -1,0 +1,21 @@
+.contenedor {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #e0f7fa;
+    gap: 10px;
+    padding: 10px;
+    height: 300px;
+}
+
+.item {
+    background-color: #00796b;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
